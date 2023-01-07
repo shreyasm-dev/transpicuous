@@ -3,11 +3,13 @@
 import sourceMapSupport from 'source-map-support';
 import { readFileSync } from 'fs';
 import Prompt from 'zpr';
-import { program } from 'commander';
+import { Command } from 'commander';
 import defaultPrompt from './default-prompt';
 import defaultConfig, { schema } from './config';
 
 sourceMapSupport.install();
+
+const program = new Command();
 
 const pkg = JSON.parse(readFileSync('./package.json', 'utf8'));
 
