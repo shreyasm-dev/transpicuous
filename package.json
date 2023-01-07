@@ -12,8 +12,18 @@
     "start:once": "npm run build && npm run run",
     "prepublish": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "zpr",
+    "zpr-prompt",
+    "zsh",
+    "prompt",
+    "shell",
+    "terminal",
+    "cli",
+    "command-line",
+    "command-line-interface"
+  ],
+  "author": "shreyasm-dev",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.18",
