@@ -1,8 +1,11 @@
 {
   "name": "transpicuous",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A light, clean, and configurable zsh prompt",
   "main": "dist/main.js",
+  "bin": {
+    "transpicuous": "dist/main.js"
+  },
   "scripts": {
     "build": "tsc",
     "run": "node dist/main.js",
