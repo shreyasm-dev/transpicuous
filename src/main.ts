@@ -1,8 +1,9 @@
+#!/usr/bin/env node
+
 import sourceMapSupport from 'source-map-support';
 import { readFileSync } from 'fs';
 import Prompt from 'zpr';
 import { program } from 'commander';
-import Conf from 'conf';
 import defaultPrompt from './default-prompt';
 import defaultConfig, { schema } from './config';
 
